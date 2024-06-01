@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [assertion]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://www.w3schools.com/"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Z_90_testNG.me_11_Assertion">
+        <methods>
+          <include name="launchURL"/>
+          <include name="firstTryItUrSelfTest"/>
+          <include name="setup"/>
+          <include name="urltest"/>
+          <include name="logotest"/>
+          <include name="secondTryItUrSelfTest"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Z_90_testNG.me_11_Assertion -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [assertion] -->

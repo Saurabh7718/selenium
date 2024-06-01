@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="%20log4j2.xsd"?>
+<Configuration status="WARN" strict="true">
+	<Appenders>
+		<Appender type="Console" name="STDOUT">
+			<Layout type="PatternLayout"
+				pattern="%d{HH:mm:ss.SSS} [%t]%-5level %Logger{36} - %msg%n" />
+		</Appender>
+
+		<Appender type="File" name="file"
+			fileName="C:\Users\91883\git\repository\SeleniumTraining\logs\log ">
+			<Layout type="PatternLayout"
+				pattern="%d{HH:mm:ss.SSS} [%t]%-5level %Logger{36} - %msg%n" />
+		</Appender>
+
+	</Appenders>
+	<Loggers>
+		<Root level="all">
+			<AppendRef ref="STDOUT" />
+		</Root>
+	</Loggers>
+</Configuration> 
